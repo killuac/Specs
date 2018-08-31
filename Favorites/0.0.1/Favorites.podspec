@@ -1,17 +1,16 @@
 Pod::Spec.new do |spec|
-  spec.name          = 'Contacts'
+  spec.name          = 'Favorites'
   spec.version       = '0.0.1'
   spec.license       = { :type => 'BSD' }
   spec.homepage      = 'https://github.com/killuac'
   spec.authors       = { 'Killua' => 'killua.liu@gmail.com' }
-  spec.summary       = 'Contacts module
-  spec.source        = { :git => 'git@github.com:killuac/Contacts.git', :tag => '0.0.1' }
-  spec.module_name   = 'Contacts'
-  spec.swift_version = '4.0'
+  spec.summary       = 'Favorites  module
+  spec.source        = { :git => 'git@github.com:killuac/Favorites.git', :branch => 'master' }
+  spec.module_name   = 'Favorites'
 
   spec.ios.deployment_target  = '10.0'
 
-  spec.source_files       = '*.swift'
+  spec.source_files       = '*.{h,m}'
 
   spec.ios.framework  = 'UIKit'
 
